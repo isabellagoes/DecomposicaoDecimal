@@ -1,6 +1,6 @@
-﻿﻿Console.WriteLine("--- Decomposição Decimal ---");
+﻿﻿Console.WriteLine("-------- Decomposição Decimal --------\n");
 
-Console.Write("Digite um número inteiro... : ");
+Console.Write("Digite um número inteiro: ");
 int numero = Convert.ToInt32(Console.ReadLine());
 
 int restante = numero;
@@ -13,7 +13,7 @@ restante /= 10;
 
 int centenas = restante;
 
-Console.WriteLine($"O número {numero} possui:");
+Console.WriteLine($"\nO número {numero} possui:");
 Console.WriteLine($"{unidades, 10} unidade(s)");
 Console.WriteLine($"{dezenas, 10} dezena(s)");
 Console.WriteLine($"{centenas, 10} centena(s).");
